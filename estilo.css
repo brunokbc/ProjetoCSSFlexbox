@@ -1,0 +1,141 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.34;
+}
+
+a {
+    color: #1877f2;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(240, 242, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.globalContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.conteudo {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.logo-facebook{
+    display: block;
+    margin: auto;
+    padding: 0;
+    
+}
+
+img.logo-facebook {
+    width:240px;
+    height:84px;
+}
+
+.campos {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 0 0 14px 0;
+    margin: auto;
+    width: 396px;
+}
+
+.cabecalho {
+    padding: 24px 0 16px 0;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.texto-login {
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 4px;
+}
+
+.titulo-login {
+    color: black;
+}
+
+.logout {
+    font-family: inherit;
+    color: #90949c;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.caixa-texto {
+    padding: 6px 0;
+    margin: 0 8px;
+    width: 380px;
+}
+
+input {
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin: 0 8px;
+}
+
+.botao {
+    display: block;
+    padding: 6px 0;
+}
+
+button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.link {
+    padding: 12px 0 18px;
+}
+
+span {
+    color: #90949c;
+}
